@@ -1,4 +1,4 @@
-# House Price Predictor 🏠
+# House Price Predictor 
 
 **Predicción del precio de viviendas mediante regresión supervisada.**
 
@@ -78,7 +78,7 @@ python evaluate.py
 
 Carga los modelos entrenados, imprime RMSE, MAE y R² sobre el conjunto de prueba, genera gráficas de predichos vs reales, residuos e importancia de features, y muestra 3 ejemplos de predicción.
 
-> ⚠️ Requiere haber completado el Paso 3 primero. Si se ejecuta sin modelos entrenados, el script mostrará un mensaje de error.
+>  Requiere haber completado el Paso 3 primero. Si se ejecuta sin modelos entrenados, el script mostrará un mensaje de error.
 
 ---
 
