@@ -1,5 +1,5 @@
+```markdown
 # House Price Predictor 
-
 **Predicción del precio de viviendas mediante regresión supervisada.**
 
 ---
@@ -82,7 +82,9 @@ Carga los modelos entrenados, imprime RMSE, MAE y R² sobre el conjunto de prueb
 
 ---
 
-## Predecir una casa nueva
+## Predecir el precio de una casa
+
+Después de entrenar los modelos, puedes predecir el precio de cualquier casa editando los parámetros directamente en Python:
 
 ```python
 from house_price_model import load_model, predict_house_price
@@ -97,17 +99,27 @@ precio = predict_house_price(
     edad_anos=10,
     distancia_centro=5,
     estrato=4,
-    garaje=1,
-    piscina=0
+    garaje=1,   # 1 = sí, 0 = no
+    piscina=0   # 1 = sí, 0 = no
 )
 
 print(f"Precio estimado: ${precio:.0f}M COP")
 ```
 
-Ajusta los parámetros según la casa que quieras evaluar.
+| Parámetro | Descripción | Rango típico |
+|---|---|---|
+| `habitaciones` | Número de habitaciones | 1 – 8 |
+| `banos` | Número de baños | 1 – 5 |
+| `area_m2` | Área construida en m² | 30 – 400 |
+| `edad_anos` | Antigüedad de la casa (años) | 1 – 60 |
+| `distancia_centro` | Distancia al centro (km) | 1 – 30 |
+| `estrato` | Estrato socioeconómico | 1 – 6 |
+| `garaje` | Tiene garaje | 0 = no, 1 = sí |
+| `piscina` | Tiene piscina | 0 = no, 1 = sí |
 
 ---
 
 ## AI Usage Statement
 
 Este proyecto fue desarrollado con asistencia de **Claude** (Anthropic, claude.ai) para generación de código, documentación y depuración. Todo el código fue revisado y validado por el equipo.
+```
