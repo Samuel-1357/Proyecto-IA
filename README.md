@@ -1,4 +1,4 @@
-```markdown
+
 # House Price Predictor 
 **Predicción del precio de viviendas mediante regresión supervisada.**
 
@@ -122,4 +122,3 @@ print(f"Precio estimado: ${precio:.0f}M COP")
 ## AI Usage Statement
 
 Este proyecto fue desarrollado con asistencia de **Claude** (Anthropic, claude.ai) para generación de código, documentación y depuración. Todo el código fue revisado y validado por el equipo.
-```
