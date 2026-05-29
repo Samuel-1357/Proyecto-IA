@@ -84,7 +84,7 @@ Carga los modelos entrenados, imprime RMSE, MAE y R² sobre el conjunto de prueb
 
 ## Predecir el precio de una casa
 
-Después de entrenar los modelos, puedes predecir el precio de cualquier casa editando los parámetros directamente en Python:
+Después de entrenar los modelos, puedes predecir el precio de cualquier casa creando un archivo `predecir.py` y copiandole este codigo pero cambiando los parametros.
 
 ```python
 from house_price_model import load_model, predict_house_price
@@ -105,6 +105,11 @@ precio = predict_house_price(
 
 print(f"Precio estimado: ${precio:.0f}M COP")
 ```
+Luego ejecuta:
+```bash
+python predecir.py
+```
+
 
 | Parámetro | Descripción | Rango típico |
 |---|---|---|
