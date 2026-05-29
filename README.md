@@ -108,14 +108,6 @@ Ajusta los parámetros según la casa que quieras evaluar.
 
 ---
 
-## Referencias
-
-1. Breiman, L. (2001). *Random Forests.* Machine Learning, 45, 5–32.
-2. Pedregosa, F. et al. (2011). *Scikit-learn: Machine Learning in Python.* JMLR, 12, 2825–2830. — https://scikit-learn.org
-3. Géron, A. (2022). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.). O'Reilly Media.
-
----
-
 ## AI Usage Statement
 
 Este proyecto fue desarrollado con asistencia de **Claude** (Anthropic, claude.ai) para generación de código, documentación y depuración. Todo el código fue revisado y validado por el equipo.
